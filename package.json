@@ -1,0 +1,29 @@
+{
+  "name": "socket-chat-room",
+  "version": "1.0.0",
+  "description": "Socket.io chat with rooms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "socket.io",
+    "chat",
+    "room",
+    "bootstrap",
+    "node.js",
+    "express"
+  ],
+  "author": "Vortex",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
